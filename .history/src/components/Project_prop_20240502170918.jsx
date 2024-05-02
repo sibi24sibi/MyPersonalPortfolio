@@ -1,32 +1,17 @@
 /* eslint-disable react/prop-types */
-
+import { SiGithub } from "react-icons/si";
+import { SlLink } from "react-icons/sl";
 import "./proj_style.css";
-
-
+import "https://fonts.googleapis.com/css?family=Open+Sans:300i,400";
 const Project_prop = (props) => {
   return (
     <>
      
      
     
-      <div className="card bg-slate-300 dark:bg-zinc-900 rounded-lg shadow-lg  ">
-        <h3 
-        className="title capitalize font-bold h-20 text-slate-800 dark:text-slate-300 text-xl max-sm:text-lg m-5 text-center"
-        >
-          {props.title}
-        </h3>
-            <div className="bar h-1 w-40 dark:bg-gray-800  bg-slate-600  mx-auto"></div>
-        <div className="flex gap-1 ml-3 mt-3 ">
-                {props.html5}
-                {props.css3}
-                {props.javascript}
-                {props.tailwindcss}
-                {props.react}
-                {props.vite}
-        </div>
-        <p className="dark:text-slate-500 mt-2 text-sm px-5">
-          {props.para}
-        </p>
+      <div className="card h-[280px] w-[200px] bg-zinc-900 rounded-lg shadow-lg  ">
+        <h3 className="title text-white font-light">{props.title}</h3>
+            <div className="bar  h-1 w-40 bg-gray-800"></div>
       </div>
 
 

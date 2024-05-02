@@ -36,8 +36,6 @@ const Projects = () => {
           Projects
 </h1>
 <div className="container flex justify-center">
-
-
 <Project_prop
             title="Personal Portfolio Website"
             para="Personal portfolio website created with react and Tailwind CSS"
@@ -58,10 +56,10 @@ const Projects = () => {
                 </IconButton>
               </Tooltip>
             }
-            vite={
+            SiVite={
               <Tooltip title="Vite" arrow>
                 <IconButton>
-                  <SiVite className=" dark:text-slate-200 text-black" />
+                  <Sivite className=" dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -73,25 +71,9 @@ const Projects = () => {
             img={Portfolio}
             link=""
             github_link=""
-            react={
-              <Tooltip title="React" arrow>
-                <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            css3={
-              <Tooltip title="Css" arrow>
-                <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
 
   />
-
-
-<Project_prop
+  <Project_prop
             title="TODO List using Laravel"
             para="I have used laravel framework with authencation and make todo list for each user"
             img={Portfolio}
@@ -99,22 +81,6 @@ const Projects = () => {
             github_link=""
 
   />
-  <Project_prop
-            title="Blood Bank MAnagement System"
-            para="The project is created using php and mysql used to store blood donor and receiver information"
-            img={Portfolio}
-            link=""
-            github_link=""
-
-  />
-  <Project_prop
-            title="Chatbot with Whatsapp interface"
-            para="This project used to feed reply and response to chatbot to provides information"
-            img={Portfolio}
-            link=""
-            github_link=""
-  />
-
   </div>
 </section>
 

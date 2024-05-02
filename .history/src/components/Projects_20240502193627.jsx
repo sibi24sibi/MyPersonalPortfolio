@@ -83,13 +83,21 @@ const Projects = () => {
             css3={
               <Tooltip title="Css" arrow>
                 <IconButton>
-                  <SiCss3 className="dark:text-slate-200 text-black" />
+                  <SiCss className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
 
   />
+  
+  <Project_prop
+            title="TODO List using Laravel"
+            para="I have used laravel framework with authencation and make todo list for each user"
+            img={Portfolio}
+            link=""
+            github_link=""
 
+  />
 
 <Project_prop
             title="TODO List using Laravel"

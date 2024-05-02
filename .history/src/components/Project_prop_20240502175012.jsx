@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-
+import { SiGithub } from "react-icons/si";
+import { SlLink } from "react-icons/sl";
 import "./proj_style.css";
 
 
@@ -15,16 +16,8 @@ const Project_prop = (props) => {
         >
           {props.title}
         </h3>
-            <div className="bar h-1 w-40 dark:bg-gray-800  bg-slate-600  mx-auto"></div>
-        <div className="flex gap-1 ml-3 mt-3 ">
-                {props.html5}
-                {props.css3}
-                {props.javascript}
-                {props.tailwindcss}
-                {props.react}
-                {props.vite}
-        </div>
-        <p className="dark:text-slate-500 mt-2 text-sm px-5">
+            <div className="bar h-1 w-40 dark:bg-gray-800  m-auto"></div>
+        <p className="dark:text-slate-500 mt-5 text-base px-5">
           {props.para}
         </p>
       </div>

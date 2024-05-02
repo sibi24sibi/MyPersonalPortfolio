@@ -43,7 +43,7 @@ const MyEmailLayout = () => {
               type="text"
               id="name"
               name="user_name"
-              className="px-3 py-2 placeholder-gray-400 text-gray-600 relative dark:bg-slate-300 bg-gray-400 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring  w-full"
+              className="px-3 py-2 placeholder-gray-400 text-gray-600 relative bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring  w-full"
             />
           </div>
           <div>
@@ -52,15 +52,14 @@ const MyEmailLayout = () => {
               type="email"
               id="email"
               name="user_email"
-              className="px-3 py-2 placeholder-gray-400 text-gray-600 relative dark:bg-slate-300 bg-gray-400 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-2 placeholder-gray-400 text-gray-600 relative dark:bg-slate-300 bg-gray-800 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
             />
           </div>
         </div>
-        <label htmlFor="message" className="dark:text-[#e1e1e1]">Message</label>
         <textarea
           placeholder="Message"
           name="message"
-          className="px-3 py-2 placeholder-gray-400 text-gray-600 relative dark:bg-slate-300 bg-gray-400 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring h-40 w-full "
+          className="px-3 py-2 placeholder-gray-400 text-gray-600 relative dark:bg-slate-300 bg-slate-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring h-40 w-full mt-4"
         ></textarea>
         <button
           type="submit"
