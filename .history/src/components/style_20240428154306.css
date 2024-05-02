@@ -1,0 +1,11 @@
+
+    .NAVBAR {
+      background: -webkit-linear-gradient((to bottom,black 10%,transparent 80%););
+      -webkit-mask-image: linear-gradient(to bottom,black 10%,transparent 80%);
+      mask-image: linear-gradient(to bottom,black 10%,transparent 80%);
+    }
+
+    .LOGO {
+      /* Example styles for LOGO class */
+      margin-left: 20px; /* Adjust as needed */
+    }
