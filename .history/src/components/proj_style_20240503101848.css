@@ -1,0 +1,24 @@
+/* proj_style.css */
+
+.card {
+  position: relative;
+  left: 0px;
+  width: 200px;
+  height: fit-content;
+  min-height: 400px;
+  transition: transform 0.4s ease-out;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card.animated {
+  transform: translateY(-20px);
+}
+
+.card.animated ~ .card {
+  position: relative;
+  left: 50px;
+  transition: transform 0.4s ease-out;
+}
