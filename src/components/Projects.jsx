@@ -89,7 +89,7 @@ const Projects = () => {
             css3={
               <Tooltip title="React" arrow>
                 <IconButton>
-                  <SiCss className="dark:text-slate-200 text-black" />
+                  <SiCss3 className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
