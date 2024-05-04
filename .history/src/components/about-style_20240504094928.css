@@ -1,0 +1,56 @@
+
+.team-member{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff; 
+    transition: all 800ms;
+    position: absolute;
+    left:auto;
+    top:auto;
+    z-index: 1;
+  }
+  
+  .team-member:hover .box{
+    transform:unset;
+  }
+  
+  .team-member:hover .image{
+    transform: translateY(-120px);
+    border-radius: 20px;
+  }
+  
+  .box{
+    width:fit-content;
+    height: fit-content;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background:#fff;
+    border-radius: 20px;
+    position: relative;
+    transform: translateY(30px);
+    transform: scale(0.0);
+    transition-duration: 800ms;
+  }
+  .details{
+  
+  }
+  
+  
+  
+
+  
+
+

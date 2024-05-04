@@ -1,0 +1,38 @@
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff; 
+    transition: transform 0.3s ease-in-out;
+}
+.team-member:hover img{
+    transform:translateY(-60px);
+     
+}
+
+.team-member:hover {
+    border-radius: 20px;
+    height: 260px;
+    background-color: #fff;
+}
+.team-member:hover details {
+    opacity: 1px;
+}
+
+
+
+/* Add a hover effect for better user interaction */
+.team-member img:hover {
+transform: scale(1.1);
+}
+
+
+.team-member h3 {
+    margin: 10px 0;
+    color: #333; /* Darken the text color */
+}
+
+.team-member p {
+    color: #555;
+}

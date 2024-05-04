@@ -1,0 +1,38 @@
+
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+    padding: 15px; /* Add padding for better visual appeal */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid #fff; 
+    transition: transform 0.3s ease-in-out;
+}
+.team-member:hover img .details{
+    transform:translateY(-80px);
+}
+
+.team-member:hover  {
+    border-radius: 20px;
+    height: 230px;
+    background-color: #fff;
+}
+
+.team-member img:hover {
+    transform:translateY(-80px);
+}
+
+.team-member .details {
+    opacity: 1px;
+}
+
+
+
+
