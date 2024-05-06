@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply overflow-x-hidden scroll-smooth
+}
+
+body {
+
+    @apply dark:bg-[#00040f] bg-[#e2e2e2ab]
+}
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
