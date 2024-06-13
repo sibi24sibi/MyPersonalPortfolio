@@ -30,9 +30,6 @@ const App = () => {
       setLoading(false);
     }, 3000);
   }, []);
-
-  const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
-
   return (
     <>
       {loading ? (
@@ -53,7 +50,8 @@ const App = () => {
           <About></About>
           <Skills></Skills>
           <Education></Education>
-          {isSmallScreen ? <Proj /> : <Projects />}
+          <Proj></Proj>
+          <Projects></Projects>
           <CTA></CTA>
           <MyEmailLayout></MyEmailLayout>
           <Footer></Footer>

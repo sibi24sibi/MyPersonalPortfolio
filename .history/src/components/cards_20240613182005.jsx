@@ -1,4 +1,4 @@
-import Project_prop from "./cards_props";
+import Project_prop from "./cards_prop";
 import { Portfolio } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -29,7 +29,7 @@ const Projects = () => {
         className="EXPERIENCE p-5 mx-5 min-h-screen font-['Poppins']   max-sm:p-2 max-sm:mx-5"
       >
         <h1 className="text-[#00040f] dark:text-slate-300 text-center mt-32  font-extrabold text-5xl mb-24  max-sm:text-4xl  ">
-          PROJECTS
+          Projects
         </h1>
         <div className="container flex justify-center flex-col md:flex-row">
           <Project_prop

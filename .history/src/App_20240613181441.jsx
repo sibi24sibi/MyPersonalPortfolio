@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Education from "./components/Education";
-import Projects from "./components/cards";
+// import Projects from "./components/Projects";
 import Proj from "./components/proj";
 import Skills from "./components/Skills";
 import HashLoader from "react-spinners/HashLoader";
@@ -30,9 +30,6 @@ const App = () => {
       setLoading(false);
     }, 3000);
   }, []);
-
-  const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
-
   return (
     <>
       {loading ? (
@@ -53,7 +50,7 @@ const App = () => {
           <About></About>
           <Skills></Skills>
           <Education></Education>
-          {isSmallScreen ? <Proj /> : <Projects />}
+          <Proj />
           <CTA></CTA>
           <MyEmailLayout></MyEmailLayout>
           <Footer></Footer>
