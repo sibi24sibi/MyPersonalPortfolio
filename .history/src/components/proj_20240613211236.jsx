@@ -23,7 +23,7 @@ const proj = () => {
       <h1 className="text-[#00040f] dark:text-slate-300 text-center mt-32  font-extrabold text-5xl mb-24  max-sm:text-4xl  ">
         PROJECTS
       </h1>
-      <div className="container  flex flex-wrap justify-center flex-row gap-24">
+      <div className="container mx-auto flex flex-wrap justify-center flex-row gap-14">
         <Proj_props
           title="Personal Portfolio Website"
           para="Personal portfolio website created with react and Tailwind CSS"

@@ -35,12 +35,12 @@ const proj_props = (props) => {
             {props.bootstrap}
             {props.wordpress}
           </div>
-          <p className="dark:text-slate-400 text-slate-800 h-auto  mt-2  text-sm px-5  select-none">
+          <p className="dark:text-slate-400 text-slate-800  mt-2  text-sm px-5  select-none">
             {para}
           </p>
           <div className="flex justify-center">
             <a
-              className=" inline-flex items-center absolute bottom-0 my-5   rounded border inset-x-1/4 border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+              className=" inline-flex items-center mt-8   rounded border inset-x-1/4 border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
               href={github_link}
             >
               <button className="text-sm font-medium mx-auto">View</button>

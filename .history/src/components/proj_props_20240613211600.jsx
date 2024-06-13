@@ -18,9 +18,9 @@ const proj_props = (props) => {
     <section id="projects">
       <Tilt options={defaultOptions} style={{ height: 320, width: 250 }}>
         <div className="card-projects-dark mx-auto  dark:bg-gray-900 bg-slate-50 ">
-          <h3 className="title capitalize font-bold h-15 text-slate-800 dark:text-slate-300 text-lg max-sm:text-lg m-5 text-center">
+          <h6 className="title capitalize font-bold h-10 text-slate-800 dark:text-slate-300 text-xs max-sm:text-lg m-5 text-center">
             {title}
-          </h3>
+          </h6>
           <div className="bar h-1 min-w-40 dark:bg-gray-400  bg-slate-600  mx-5"></div>
           <div className="flex gap-1 ml-3 mt-3 ">
             {props.react}
@@ -35,12 +35,12 @@ const proj_props = (props) => {
             {props.bootstrap}
             {props.wordpress}
           </div>
-          <p className="dark:text-slate-400 text-slate-800 h-auto  mt-2  text-sm px-5  select-none">
+          <p className="dark:text-slate-400 text-slate-800  mt-2  text-sm px-5  select-none">
             {para}
           </p>
           <div className="flex justify-center">
             <a
-              className=" inline-flex items-center absolute bottom-0 my-5   rounded border inset-x-1/4 border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+              className=" inline-flex items-center mt-5  rounded border inset-x-1/4 border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
               href={github_link}
             >
               <button className="text-sm font-medium mx-auto">View</button>
