@@ -1,0 +1,38 @@
+
+
+
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+  }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    position:relative;
+    left:unset;
+    padding-bottom:unset;
+    margin: 10px;;
+    padding-bottom:unset;
+  }
+  .card:hover {
+    transform:unset ;
+    transition:unset;
+    margin-left:unset;
+  }
+  .card:not(:first-child) {
+    margin-left:unset;
+  }
+  
+  .card:hover ~ .card {
+    position:unset;
+    left:unset;
+    transition:unset;
+  }
+}
